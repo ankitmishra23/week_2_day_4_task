@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "week2day3tasks"
+    }
+  },
+  "defaultProject": "week2day3tasks",
+  "cli": {
+    "analytics": "7ac2aa71-b701-42c7-829f-8a0a9874ff3d"
+  }
 }
